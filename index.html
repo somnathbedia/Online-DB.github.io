@@ -3,26 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <title>Somnath Bedia Blog</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body style = "background-color: rgb(244, 244, 249);">
     <header>
       <h1>NDTV Daily News</h1>
+      <hr />
       <nav id="nav_item">
         <a href="#">All News</a>
         <a href="#">India</a>
         <a href="#">Technology</a>
         <a href="#">Trending</a>
       </nav>
+      <hr />
     </header>
 
+    <br />
     <article>
       <!-- Author Section -->
       <header>
-        <center>
-          <img src="Author.jpg" alt="Author's image" width="940" height="590" />
-          <p>Created by <strong>Somnath Bedia</strong> on 17 June <em> 2022</em></p>
-        </center>
+        <figure>
+          <img src="Author.jpg" alt="Author's image" width="880" height="590" />
+          <caption>
+            <p>
+            Designed and Developed by <strong>Somnath Bedia</strong> on 17
+              June <em> 2022</em>
+            </p>
+          </caption>
+        </figure>
       </header>
 
       <!-- Criminal image With Caption -->
@@ -66,7 +74,7 @@
       </ol>
 
       <!-- Trend list -->
-      <aside >
+      <aside>
         <h3>Today's Trends</h3>
 
         <ul id="trend_list">
@@ -76,9 +84,12 @@
           <li>Nupur Sharma</li>
         </ul>
       </aside>
-
+      <hr />
       <footer>
         <p>copyright &copy; 2022 somnathbedia7@gmail.com</p>
+        <p>&phone; +91- 1234567890</p>
+
+        <div><button id="like-button">&hearts; Like</button></div>
       </footer>
     </article>
   </body>
