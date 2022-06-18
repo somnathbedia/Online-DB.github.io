@@ -1,37 +1,100 @@
-h1{
-    font-size: 45px;
-    font-family: sans-serif;
+*{
+    align-items: center;
+    margin-top: 0px;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #faeeee;
+}
+
+nav a:link{
+    font-size: 20px;
 }
 
 /* #nav_item{
     
 } */
 
-#Author-Caption{
-    line-height: 1;
+#Author-Caption {
+  line-height: 1;
+  font-style: italic;
 }
 
-h3{
-    font-size: 27px;
-    font-family: sans-serif;
+h3 {
+  font-size: 27px;
+  font-family: sans-serif;
+  text-decoration: underline;
 }
 
-p{
-    font-family: sans-serif;
-    line-height: 1.5;
+h1,
+h2,
+h3 {
+  color: hwb(188 6% 32%);
 }
 
-ol{
-    list-style: none;
+p {
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
-
-footer p{
-    font-size: 13px;
-    font-family: sans-serif;
-    line-height: 1;
+ol {
+  list-style: none;
 }
 
-#like-button{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+footer p {
+  font-size: 13px;
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+footer {
+  text-align: center;
+  background-color: #f7f7f77e;
+}
+
+#like-button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+
+  border-color: hwb(188 6% 32%);
+}
+
+/* List items Styling */
+li:first-child {
+  font-weight: bold;
+}
+
+li:nth-child(3) {
+  color: rgb(108, 108, 247);
+}
+
+/* Styling links */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: rgb(250, 208, 128);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: rgb(161, 241, 241);
+  font-style: italic;
 }
